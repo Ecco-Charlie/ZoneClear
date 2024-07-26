@@ -33,7 +33,7 @@ services:
     image: phpmyadmin
     restart: always
     ports:
-      - 80:80
+      - 8081:80
     environment:
       - PMA_HOST=db
       - PMA_USER=rabano
