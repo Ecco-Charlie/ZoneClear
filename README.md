@@ -5,7 +5,7 @@
 Estos son todos los **Endpoints** públicos de la API
 
 ### /auth/login _(POST)_
-Endpoint para logearte, recive 2 parametros y debuelve un codigo **200** si el login fue exitosom, devuelve un **406** si las credenciales son incorrectas
+Endpoint para logearte, recive 2 parametros y devuelve un codigo **200** si el login fue exitosom, devuelve un **406** si las credenciales son incorrectas
 #### Headers
 Ninguno
 #### Parametros
@@ -89,7 +89,7 @@ Ninguno
 
 ### /auth/register/cliente _(POST)_
 
-Endpoint para crear la cuenta **Cliente**, recive 7 parametros y debuelve un codigo **200** si el login fue exitosom, devuelve un **406** si el _Email_ ya ha sido ocupado, devuelve un **403** si algo en la peticion esta mal
+Endpoint para crear la cuenta **Cliente**, recive 7 parametros y devuelve un codigo **200** si el login fue exitosom, devuelve un **406** si el _Email_ ya ha sido ocupado, devuelve un **403** si algo en la peticion esta mal
 #### Headers
 Ninguno
 #### Parametros
