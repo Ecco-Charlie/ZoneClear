@@ -164,3 +164,7 @@ Ninguno
 > Funciona por medio de x-www-form
 >
 
+---
+
+> Create by soft.exe
+> Puedes provar esta API sin necesidad de instalarla, esta alojada en http://rabano.ddns.net:8080/
