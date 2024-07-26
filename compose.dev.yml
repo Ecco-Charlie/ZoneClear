@@ -1,0 +1,28 @@
+services:
+  db:
+    image: mysql
+    restart: always
+    environment:
+      - MYSQL_RANDOM_ROOT_PASSWORD=yes
+      - MYSQL_USER=rabano
+      - MYSQL_PASSWORD=htmlcssjs
+      - MYSQL_DATABASE=zone_clear
+    ports:
+      - 3306:3306
+    networks:
+      - auth
+
+  pma:
+    image: phpmyadmin
+    restart: always
+    ports:
+      - 80:80
+    environment:
+      - PMA_HOST=db
+      - PMA_USER=rabano
+      - PMA_PASSWORD=htmlcssjs
+    networks:
+      - auth
+
+networks:
+  auth:
